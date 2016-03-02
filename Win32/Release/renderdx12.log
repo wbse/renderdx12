@@ -1,0 +1,21 @@
+﻿Build started 2/3/2016 15:51:31.
+     1>Project "F:\Prestudy\renderdx12\renderdx12\renderdx12\renderdx12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\ProgramFiles\VSC2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RENDERDX12_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Win32\Release\\" /Fd"Win32\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\ProgramFiles\VSC2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RENDERDX12_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Win32\Release\\" /Fd"Win32\Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt renderdx12.cpp stdafx.cpp
+         renderdx12.cpp
+         stdafx.cpp
+       Link:
+         D:\ProgramFiles\VSC2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Prestudy\renderdx12\renderdx12\Win32\Release\renderdx12.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Prestudy\renderdx12\renderdx12\Win32\Release\renderdx12.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Prestudy\renderdx12\renderdx12\Win32\Release\renderdx12.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Release\dllmain.obj
+         Win32\Release\renderdx12.obj
+         Win32\Release\stdafx.obj
+         Generating code
+         All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         renderdx12.vcxproj -> F:\Prestudy\renderdx12\renderdx12\Win32\Release\renderdx12.dll
+     1>Done Building Project "F:\Prestudy\renderdx12\renderdx12\renderdx12\renderdx12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.96

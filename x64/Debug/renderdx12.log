@@ -1,0 +1,44 @@
+﻿Build started 2/26/2016 18:09:27.
+     1>Project "F:\Prestudy\renderdx12\renderdx12\renderdx12.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\ProgramFiles\VSC2015\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _WINDOWS /D _USRDLL /D RENDERDX12_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt src\devdx12.cpp
+         devdx12.cpp
+     1>f:\prestudy\renderdx12\render\include\utility.h(97): warning C4251: 'RenderDemo::String::mstr': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'RenderDemo::String'
+     1>f:\prestudy\renderdx12\render\include\scene.h(62): warning C4251: 'RenderDemo::DrawTask::mvEntity': class 'std::vector<RenderDemo::Entity *,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'RenderDemo::DrawTask'
+                 with
+                 [
+                     _Ty=RenderDemo::Entity *
+                 ]
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(29): warning C4251: 'RenderDemo::Devicedx12::m_device': class 'Microsoft::WRL::ComPtr<ID3D12Device>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(30): warning C4251: 'RenderDemo::Devicedx12::m_commandQueue': class 'Microsoft::WRL::ComPtr<ID3D12CommandQueue>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(31): warning C4251: 'RenderDemo::Devicedx12::m_swapChain': class 'Microsoft::WRL::ComPtr<IDXGISwapChain3>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(34): warning C4251: 'RenderDemo::Devicedx12::m_renderTargets': class 'Microsoft::WRL::ComPtr<ID3D12Resource>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(35): warning C4251: 'RenderDemo::Devicedx12::m_rootSignature': class 'Microsoft::WRL::ComPtr<ID3D12RootSignature>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(36): warning C4251: 'RenderDemo::Devicedx12::m_rtvHeap': class 'Microsoft::WRL::ComPtr<ID3D12DescriptorHeap>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(37): warning C4251: 'RenderDemo::Devicedx12::m_dsvHeap': class 'Microsoft::WRL::ComPtr<ID3D12DescriptorHeap>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(38): warning C4251: 'RenderDemo::Devicedx12::m_cbvSrvHeap': class 'Microsoft::WRL::ComPtr<ID3D12DescriptorHeap>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(39): warning C4251: 'RenderDemo::Devicedx12::m_samplerHeap': class 'Microsoft::WRL::ComPtr<ID3D12DescriptorHeap>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(40): warning C4251: 'RenderDemo::Devicedx12::m_pipelineState': class 'Microsoft::WRL::ComPtr<ID3D12PipelineState>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(41): warning C4251: 'RenderDemo::Devicedx12::m_pipelineStateShadowMap': class 'Microsoft::WRL::ComPtr<ID3D12PipelineState>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(42): warning C4251: 'RenderDemo::Devicedx12::m_commandAllocator': class 'Microsoft::WRL::ComPtr<ID3D12CommandAllocator>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\devdx12.h(49): warning C4251: 'RenderDemo::Devicedx12::m_psoMap': class 'std::map<std::string,ID3D12PipelineState *,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'RenderDemo::Devicedx12'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=ID3D12PipelineState *
+                 ]
+     1>f:\prestudy\renderdx12\renderdx12\include\meshdx12.h(40): warning C4251: 'RenderDemo::TaskCmddx12::m_cmdAllocators': class 'Microsoft::WRL::ComPtr<ID3D12CommandAllocator>' needs to have dll-interface to be used by clients of class 'RenderDemo::TaskCmddx12'
+     1>f:\prestudy\renderdx12\renderdx12\include\meshdx12.h(41): warning C4251: 'RenderDemo::TaskCmddx12::m_cmdLists': class 'Microsoft::WRL::ComPtr<ID3D12GraphicsCommandList>' needs to have dll-interface to be used by clients of class 'RenderDemo::TaskCmddx12'
+       Link:
+         D:\ProgramFiles\VSC2015\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Prestudy\renderdx12\x64\Debug\renderdx12.dll" /INCREMENTAL /NOLOGO /LIBPATH:F:\Prestudy\renderdx12\x64\Debug\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Prestudy\renderdx12\x64\Debug\renderdx12.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Prestudy\renderdx12\x64\Debug\renderdx12.lib" /MACHINE:X64 /DLL x64\Debug\dllmain.obj
+         x64\Debug\renderdx12.obj
+         x64\Debug\devdx12.obj
+         x64\Debug\dxshare.obj
+         x64\Debug\meshdx12.obj
+         x64\Debug\stdafx.obj
+         renderdx12.vcxproj -> F:\Prestudy\renderdx12\x64\Debug\renderdx12.dll
+     1>Done Building Project "F:\Prestudy\renderdx12\renderdx12\renderdx12.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.42
